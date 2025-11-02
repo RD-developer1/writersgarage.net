@@ -1,0 +1,24 @@
+User-agent: *
+Disallow: /wp-content/uploads/wc-logs/
+Disallow: /wp-content/uploads/woocommerce_transient_files/
+Disallow: /wp-content/uploads/woocommerce_uploads/
+Disallow: /*?add-to-cart=
+Disallow: /*?*add-to-cart=
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /7_hacks_ver-9-7_2/
+Disallow: /wp-content/uploads/_pda/2021/02/7_Hacks_ver.9.7_2.pdf
+Disallow: /parts-of-a-book-v2/
+Disallow: /wp-content/uploads/_pda/2021/03/Parts-of-a-Book-v2.pdf
+Disallow: /7_hacks_final_9-8/
+Disallow: /wp-content/uploads/_pda/2021/04/7_Hacks_Final_9.8.pdf
+Disallow: /tutorial-kdp-ebook-preorder-and-preview/
+Disallow: /wp-content/uploads/_pda/2021/04/Tutorial-KDP-EBook-preorder-and-preview.mp4
+Disallow: /tutorial-kdp-book-upload/
+Disallow: /wp-content/uploads/_pda/2021/04/Tutorial-KDP-Book-upload.mp4
+
+
+User-agent: *
+Disallow: /wp-content/uploads/wpo/wpo-plugins-tables-list.json
