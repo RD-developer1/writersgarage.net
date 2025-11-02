@@ -1,0 +1,13 @@
+/* Hide Login, Signup, and Cart buttons safely (keeps header layout intact) */
+a[href*="my-account"],
+a[href*="login"],
+a[href*="register"],
+a[href*="cart"],
+.header-cart-link,
+.account-item,
+.cart-item,
+.header-button .button {
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
